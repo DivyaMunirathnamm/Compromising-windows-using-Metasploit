@@ -106,6 +106,7 @@ On the target Windows machine, open a Web browser and open this URL, replacing t
 
 ### Output 
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dfd3a18b-272b-4dfe-830e-a0e510f16fc2" />
 
 
 
@@ -113,6 +114,7 @@ On the target Windows machine, open a Web browser and open this URL, replacing t
 Bypass any warning boxes, double-click the file, and allow it to run.
 On kali give the command exploit
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/53690e31-8c7f-45cf-80d7-7917e1695a1b" />
 
 
 To see a list of processes, at the meterpreter > prompt, execute this command: ps ⇒ can see the fun.exe process running with pid 1156
@@ -125,9 +127,11 @@ migrate -N explorer.exe at meterpreter > prompt, execute this command: netstat A
 The target is now owned. Following are meterpreter commands for key capturing in the target machine keyscan_start Begins capturing keys typed in the target. On the Windows target, open Notepad and type in some text, such as your name.
 
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a119c461-b7dd-4b65-8ced-480a5c23cf57" />
 
 keyscan_dump Shows the keystrokes captured so far
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0a80c2a6-1df9-4291-8677-407d80e493f6" />
 
 
 ## RESULT:
